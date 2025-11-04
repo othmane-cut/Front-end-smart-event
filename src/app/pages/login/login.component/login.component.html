@@ -1,1 +1,32 @@
-<p>login.component works!</p>
+<div class="container mt-5" style="max-width: 400px;">
+  <h2 class="text-center mb-4">Login</h2>
+
+  <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+    <div class="mb-3">
+      <label>Email</label>
+      <input
+        type="email"
+        class="form-control"
+        name="email"
+        [(ngModel)]="email"
+        required
+      />
+    </div>
+
+    <div class="mb-3">
+      <label>Password</label>
+      <input
+        type="password"
+        class="form-control"
+        name="password"
+        [(ngModel)]="password"
+        required
+      />
+    </div>
+
+    <button class="btn btn-primary w-100" [disabled]="!loginForm.valid">
+      Login
+    </button>
+  </form>
+</div>
+
