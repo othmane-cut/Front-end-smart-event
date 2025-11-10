@@ -1,27 +1,20 @@
-<header class="d-flex align-items-center p-3 border-bottom">
-  <img src="images.png" alt="logo" class="img-fluid ms-5" style="max-width: 80px;">
+<header class="d-flex align-items-center justify-content-between p-3 bg-dark text-light">
 
-  <h1 class="display-4 text-primary fw-semibold m-0 ms-3">
-    Smart Event
-  </h1>
+  <!-- Left: logo + title -->
+  <div class="d-flex align-items-center" style="margin-right: 100px;">
+    <img src="images.png" alt="logo" class="img-fluid" style="max-width: 80px;">
+    <h1 class="display-6 fw-semibold text-light mb-0 ms-3">Smart Event</h1>
+  </div>
 
-  <nav class="ms-auto">
-    <ul class="nav justify-content-end me-5">
-      <li class="nav-item">
-        <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark fw-semibold" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark fw-semibold" href="#">Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark fw-semibold" href="#">Contact</a>
-      </li>
-    </ul>
-  </nav>
+  <!-- Right: search bar -->
+  <form class="d-flex" role="search" style="margin-right: 50px;">
+    <input class="form-control me-2" type="search" placeholder="Search event..." aria-label="Search">
+    <button class="btn btn-outline-light" type="submit">Search</button>
+  </form>
+
 </header>
+
+
 
 
 
