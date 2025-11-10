@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,AfterViewInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-sidebare',
@@ -8,4 +9,15 @@ import { Component } from '@angular/core';
 })
 export class Sidebare {
 
+isOpen = false;          // controls hamburger + overlay
+wrapperToggled = false;  // controls the sidebar slide
+
+  toggleMenu() {
+
+    this.isOpen = !this.isOpen;
+    this.wrapperToggled = !this.wrapperToggled;
+
+  }
 }
+
+
