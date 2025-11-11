@@ -11,11 +11,16 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+
   defaultEmail = 'anas@example.com';
   defaultPassword = '123';
+
   email = '';
   password = '';
-  
+
+  isShaking = false; // ✅ controls shake animation state
+
+  constructor(private router: Router) {}
 
   onSubmit() {
     console.log('Email:', this.email);
@@ -25,13 +30,20 @@ export class LoginComponent {
   onCheckUser() {
     if (this.email === this.defaultEmail && this.password === this.defaultPassword) {
       this.router.navigate(['/dashboard']);
-       
     } else {
-      alert('Invalid email or password.');
+      this.shakeDiv();         // ✅ trigger animation when invalid
+      
     }
-}
+  }
 
+  // ✅ Function that triggers shake animation
+  private shakeDiv() {
+    this.isShaking = true;
 
-  constructor(private router: Router) {}
+    setTimeout(() => {
+      this.isShaking = false;
+    }, 400); // same duration as CSS animation
+  }
+
 }
 

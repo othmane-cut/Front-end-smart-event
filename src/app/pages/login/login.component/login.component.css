@@ -24,3 +24,26 @@ border-bottom-right-radius: .3rem;
 #container-divex {
   box-shadow: 12px 4px 12px rgba(5, 5, 5, 0.4);
 }
+/* ✨ Idle floating animation */
+#container-dive {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* ❌ Shake animation on invalid login */
+.shake {
+  animation: shakeAnim 0.4s ease;
+}
+
+@keyframes shakeAnim {
+  0% { transform: translateX(0px); }
+  25% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  75% { transform: translateX(-10px); }
+  100% { transform: translateX(0px); }
+}
