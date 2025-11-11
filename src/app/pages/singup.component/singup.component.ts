@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-singup.component',
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './singup.component.css',
 })
 export class SingupComponent {
+  constructor(private router: Router) {}
+
+  onBackToLogin() {
+    this.router.navigate(['/login']);
+  }
 
 }

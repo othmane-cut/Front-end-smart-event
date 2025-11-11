@@ -1,0 +1,11 @@
+.container {
+  background-color: white;
+  border-radius: 10px;        /* optional: rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* box shadow */
+  padding: 20px;              /* optional: nice spacing */
+}
+#div-img {
+background: linear-gradient(to right, #EEEEEE, #EBCB90, #FFF0CE, #3396D3);
+}
+
+
