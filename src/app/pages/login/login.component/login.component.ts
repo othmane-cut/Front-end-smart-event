@@ -11,8 +11,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  defaultEmail = 'othmane@example.com';
-  defaultPassword = 'password123';
+  defaultEmail = 'anas@example.com';
+  defaultPassword = '123';
   email = '';
   password = '';
   
