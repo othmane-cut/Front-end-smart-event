@@ -45,5 +45,9 @@ export class LoginComponent {
     }, 400); // same duration as CSS animation
   }
 
+  onCreateAccount() {
+    this.router.navigate(['/singup']);
+  }
+
 }
 
