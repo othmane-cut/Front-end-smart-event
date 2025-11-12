@@ -49,5 +49,9 @@ export class LoginComponent {
     this.router.navigate(['/singup']);
   }
 
+  onForgotPassword() {
+    this.router.navigate(['/forgot-password']);
+  }
+
 }
 
