@@ -32,13 +32,18 @@
                     <!-- Login button -->
                     <button data-mdb-button-init data-mdb-ripple-init
                       class="btn btn-primary w-100 gradient-custom-2 mb-2" type="button" (click)="onCheckUser()"
-                      [disabled]="!loginForm.valid" style="padding: 10px 0; font-size: 18px; color: black; font-weight: bold;">
+                      [disabled]="!loginForm.valid"
+                      style="padding: 10px 0; font-size: 18px; color: black; font-weight: bold;">
                       Log in
                     </button>
 
                     <!-- Forgot password under the button -->
                     <div>
-                      <a class="text-muted small d-block mt-1" href="#!" (click)="onForgotPassword()">Forgot password?</a>
+
+                      <span class="text-muted small d-block mt-1 cursor-pointer" id ="forgot-password-span" (click)="onForgotPassword()">
+                        Forgot password?
+                      </span>
+
                     </div>
 
                   </div>
@@ -46,8 +51,8 @@
 
                   <div class="d-flex align-items-center justify-content-center pb-4">
                     <p class="mb-0 me-2">Don't have an account?</p>
-                    <button type="button" data-mdb-button-init data-mdb-ripple-init
-                      class="btn btn-outline-danger" (click)="onCreateAccount()">Create new</button>
+                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-danger"
+                      (click)="onCreateAccount()">Create new</button>
                   </div>
 
                 </form>
@@ -56,9 +61,13 @@
             </div>
             <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
               <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                <h4 class="mb-4" style="color: black;font-weight: bold;">Your Intelligent Conference Management Platform</h4>
-                <p class="small mb-0" style="color: black;">Smart Event is a smart conference management platform designed to simplify event organization from start to finish. Whether you're planning a professional conference, workshop, or corporate meeting, Smart Event provides all the tools you need in one place — from participant registration,
-                   session scheduling, speaker management, and real-time attendance tracking.</p>
+                <h4 class="mb-4" style="color: black;font-weight: bold;">Your Intelligent Conference Management Platform
+                </h4>
+                <p class="small mb-0" style="color: black;">Smart Event is a smart conference management platform
+                  designed to simplify event organization from start to finish. Whether you're planning a professional
+                  conference, workshop, or corporate meeting, Smart Event provides all the tools you need in one place —
+                  from participant registration,
+                  session scheduling, speaker management, and real-time attendance tracking.</p>
               </div>
             </div>
           </div>
