@@ -2,7 +2,7 @@ const events_list = [
   {
     "id": 1,
     "title": "Tech Innovation Summit",
-    "img": "event01.png",
+    "img": "event01.jpg",
     "dateBegin": "2025-02-10",
     "dateEnd": "2025-02-12",
     "category": "Technology",
@@ -11,7 +11,7 @@ const events_list = [
   {
     "id": 2,
     "title": "Music Festival Casablanca",
-    "img": "event02.png",
+    "img": "event02.jpg",
     "dateBegin": "2025-03-05",
     "dateEnd": "2025-03-07",
     "category": "Music",
@@ -20,7 +20,7 @@ const events_list = [
   {
     "id": 3,
     "title": "Global Marketing Forum",
-    "img": "event03.png",
+    "img": "event03.jpg",
     "dateBegin": "2025-04-15",
     "dateEnd": "2025-04-16",
     "category": "Business",
@@ -29,7 +29,7 @@ const events_list = [
   {
     "id": 4,
     "title": "International Food Expo",
-    "img": "event04.png",
+    "img": "event04.jpg",
     "dateBegin": "2025-05-01",
     "dateEnd": "2025-05-03",
     "category": "Food",
@@ -38,7 +38,7 @@ const events_list = [
   {
     "id": 5,
     "title": "Startup Pitch Day",
-    "img": "event05.png",
+    "img": "event05.jpg",
     "dateBegin": "2025-06-20",
     "dateEnd": "2025-06-20",
     "category": "Entrepreneurship",
@@ -47,7 +47,7 @@ const events_list = [
   {
     "id": 6,
     "title": "Morocco Gaming Expo",
-    "img": "event06.png",
+    "img": "event06.jpg",
     "dateBegin": "2025-07-08",
     "dateEnd": "2025-07-10",
     "category": "Gaming",
@@ -56,7 +56,7 @@ const events_list = [
   {
     "id": 7,
     "title": "AI & Robotics Conference",
-    "img": "event07.png",
+    "img": "event07.jpg",
     "dateBegin": "2025-08-22",
     "dateEnd": "2025-08-24",
     "category": "Artificial Intelligence",
@@ -65,7 +65,7 @@ const events_list = [
   {
     "id": 8,
     "title": "Marathon Rabat",
-    "img": "event08.png",
+    "img": "event08.jpg",
     "dateBegin": "2025-09-10",
     "dateEnd": "2025-09-10",
     "category": "Sports",
@@ -74,7 +74,7 @@ const events_list = [
   {
     "id": 9,
     "title": "Photography Workshop",
-    "img": "event09.png",
+    "img": "event09.jpg",
     "dateBegin": "2025-10-01",
     "dateEnd": "2025-10-02",
     "category": "Art",
@@ -83,7 +83,7 @@ const events_list = [
   {
     "id": 10,
     "title": "Health & Wellness Expo",
-    "img": "event10.png",
+    "img": "event10.jpg",
     "dateBegin": "2025-11-12",
     "dateEnd": "2025-11-14",
     "category": "Health",
